@@ -10,28 +10,44 @@
     <h1>Ex 09 - Loja de Ferramentas</h1>
 
     <form>
+      <label for="nome">Digite seu nome:</label>
+      <input type="text" id="nome" />
+    </form>
+    <br /><br />
+    <form>
       <!-- parafusos -->
       <label for="precoParafuso"
         >Digite a quantidade de parafusos que deseja comprar:</label
       >
-      <input type="" id="qntdParafuso" />
-      <br /><br />
+      <input type="number" id="qntdParafuso" />
+      <br />
+      <h6 id="totalParafuso"></h6>
+      <br />
+
       <!-- arruelas -->
       <label for="precoArruela"
         >Digite a quantidade de arruelas que deseja comprar:</label
       >
-      <input type="" id="qntdArruela" />
-      <br /><br />
+      <input type="number" id="qntdArruela" />
+      
+      <br />
+      <h6 id="totalArruela"></h6>
+      <br />
+
       <!-- porcas -->
       <label for="precoPorca"
-        >Digite a quantidade de parafusos que deseja comprar:</label
+        >Digite a quantidade de porcas que deseja comprar:</label
       >
-      <input type="" id="qntdPorca" />
-      <br /><br />
+      <input type="number" id="qntdPorca" />
+      
+      <br />
+      <h6 id="totalPorca"></h6>
+      <br />
     </form>
 
     <button onclick="inicio()">Calcular compras</button>
-    <br><br>
+    <br /><br />
+
     <div>
       <h6 id="total"></h6>
     </div>
